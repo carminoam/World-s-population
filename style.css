@@ -1,0 +1,77 @@
+*{
+    color: aliceblue;
+    align-items:center;
+    font-family:monospace;
+}
+h1{
+    font-size: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+#videoBG{
+    position: fixed;
+    width:  100%;
+    background-size: cover;
+    z-index: -1;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+td{
+    border: rgb(31, 0, 206) 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: cornflowerblue;
+    margin: 5px ;
+    opacity: 0.8;
+}
+#totalCountries,#totalPop,#avgPop{
+    font-size: 25px;
+}
+#searchInp,#searchBtn{
+    font-size: large;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+#searchInp{
+    width: 300px;
+}
+
+#searchBtn:hover{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    cursor: pointer;
+}
+
+th{
+    border: cornflowerblue 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(31, 0, 206);
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+span{
+    border: cornflowerblue 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(31, 0, 206);
+    color: aliceblue;
+    opacity: 0.8;
+    margin: 5px;
+}
+
+img{
+    width: 30px;
+}
+
+
+

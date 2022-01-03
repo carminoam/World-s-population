@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY - AJAX Task (D1)</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="app.js"></script>
+</head>
+
+<body>>
+    <video id="videoBG" poster="/assets/globus-image.jpeg" autoplay muted loop>
+        <source src="/assets/globus-video.mp4" type="video/mp4">
+    </video>
+    name: Noam carmi
+    <div>
+        <form>
+            <h1>World's Population</h1>
+            <h2>Type a name or part of it and get details on the country</h2>
+            <input id="searchInp" type="search" placeholder="Type country name..." autocomplete="none">
+            <button id="searchBtn" type="button">search</button>
+        </form><br>
+    </div>
+    <div id="container">
+        <span>Total Countries Founded:</span><span id="totalCountries"></span> <br><br>
+        <span>Total Countries Population:</span><span id="totalPop"></span><br><br>
+        <span>Average Population:</span> <span id="avgPop"></span><br><br>
+        <div>
+            <table id="table1">
+                <tr>
+                    <th>Country Name</th>
+                    <th>Number of citizens</th>
+                    <th>Flag</th>
+                    <th>area(Sq.Km.)</th>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table id="table2">
+                <tr>
+                    <th>Region</th>
+                    <th>Number of countries</th>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table id="table3">
+                <tr>
+                    <th>currency symbol</th>
+                    <th>Number of countries</th>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
